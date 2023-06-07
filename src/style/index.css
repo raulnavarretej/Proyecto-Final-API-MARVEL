@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Marvel&display=swap");
+
+html {
+  font-size: 22px;
+}
+:root * {
+  font-family: "Marvel", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  background-color: black;
+  /* background-color: rgba(0, 0, 0, 0.9); */
+}
+
+/* nav */
+
+ul li {
+  font-size: 1.5rem;
+  margin: 0 8px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.nav-links {
+  color: white;
+}
+
+.nav-links:hover {
+  color: #ec1d24;
+}
+
+/* form */
+
+form * {
+  margin: 10px 6px;
+}
+
+.form-control:focus {
+  border: 1px solid #ec1d24;
+}
+
+.form-select {
+  width: auto;
+}
+
+.form-select:focus {
+  border: 1px solid #ec1d24;
+}
+/* Details component */
+.info-box ul {
+  list-style-type: none;
+  color: grey;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.info-box li {
+  font-size: 1.2rem;
+}
+
+.info-box span {
+  color: #ec1d24;
+}
+
+.creators-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  color: white;
+
+  padding: 2%;
+  margin: 0;
+  list-style-type: none;
+}
+
+.creator-name {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.creator-role {
+  font-size: 0.8rem;
+}
+
+/* infocard component */
+
+.add-button {
+  font-weight: bold;
+  cursor: pointer;
+  background-color: black;
+  color: #59ce8f;
+  font-size: 1.2rem;
+}
+
+.add-button:hover {
+  color: #84ffbe;
+}
+
+.remove-button {
+  font-weight: bold;
+  cursor: pointer;
+  color: #ec1d24;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.remove-button:hover {
+  color: #ff5f64;
+}
+
+.data-url {
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(85, 85, 255);
+}
+
+.data-url:hover {
+  color: rgb(146, 146, 240);
+}
+
+.data-url:active {
+  color: rgb(15, 15, 255);
+}
+
+.data-url:visited {
+  color: rgb(161, 46, 255);
+}
+
+/* search buttons */
+
+.search-button {
+  background-color: rgba(236, 29, 36, 1);
+  color: white;
+
+  border: 1px solid rgba(236, 29, 36, 1);
+  border-radius: 6px;
+
+  padding-inline: 10px;
+}
+.search-button:hover {
+  background-color: rgb(231, 76, 81);
+}
+
+.search-button:active {
+  background-color: rgba(236, 29, 36, 0.8);
+}
